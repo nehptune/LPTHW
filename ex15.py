@@ -1,4 +1,4 @@
-# import the argv module
+# import the argv feature from the sys module
 from sys import argv
 
 # set the variables that will be passed by argv
