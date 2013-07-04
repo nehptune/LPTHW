@@ -1,13 +1,13 @@
-def count_list(var):
+def count_list(var1, var2):
 
     i = 0
     numbers = []
 
-    while i < var:
-        print "At the tope i is %d" % i
+    while i < var1:
+        print "At the top i is %d" % i
         numbers.append(i)
 
-        i += 1
+        i += var2
         print "Number now: ", numbers
         print "At the bottom i is %d" % i
 
