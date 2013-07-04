@@ -1,18 +1,20 @@
-i = 0
-numbers = []
+def count_list(var):
 
-while i < 6:
-    print "At the tope i is %d" % i
-    numbers.append(i)
+    i = 0
+    numbers = []
 
-    i += 1
-    print "Number now: ", numbers
-    print "At the bottom i is %d" % i
+    while i < var:
+        print "At the tope i is %d" % i
+        numbers.append(i)
 
-print "The numbers: "
+        i += 1
+        print "Number now: ", numbers
+        print "At the bottom i is %d" % i
 
-for num in numbers:
-    print num
+    print "The numbers: "
+
+    for num in numbers:
+        print num
 
 
 
